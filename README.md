@@ -21,8 +21,7 @@ The Thermal process control station, on the other hand, regulates temperature. T
 
 In 2018, the tem of Isaiah Nassiuma, Emanuel Sunguti, Langat KIpkoech Rogers and Timothy KImari propesed a new control method based on the Siemens S7 1200 PLC PID control functionality.
 
-in 2020, the controller used was the Siemens S7 1214 DC/DC/DC
-
+in 2020, the controller used for both stations was the Siemens S7 1200 PLC (CPU 1214C DC/DC/DC)
 
 
 
