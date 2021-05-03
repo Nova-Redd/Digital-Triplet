@@ -53,5 +53,7 @@ The models were created in Tensorflow Keras API
 4. Specify the setpoints using voice in English
 5. Control different components (pumps, motors, chiller) of the stations using speech 
 
+# Breakdown of Work done
+
 
 
