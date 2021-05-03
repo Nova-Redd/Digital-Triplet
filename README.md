@@ -9,3 +9,6 @@ Engineering Cyber-Physical systems are evolving from Digital Twin models to Digi
 At Dedan Kimathi University of Technology (DeKUT) SIEMENS Mechatronics Systems training centre, we are tasked to add Face-Recogniton security access and Voice assistants to the Digital Twin models of the Analytic and Thermal Process Control stations.
 This repository outlines the approaches we took to achieve this
 
+# Analytic and Thermal Process Control stations
+
+
