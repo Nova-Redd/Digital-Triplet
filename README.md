@@ -24,7 +24,8 @@ https://amatrol.com/product/process-control-training/
 
 In 2018, the team of Isaiah Nassiuma, Emanuel Sunguti, Langat KIpkoech Rogers and Timothy KImari proposed a new control method based on the Siemens S7 1200 PLC PID control functionality.
 
-in 2020, the controller used for both stations was the Siemens S7 1200 PLC (CPU 1214C DC/DC/DC)
+In 2020, the controller used for both stations was the Siemens S7 1200 PLC (CPU 1214C DC/DC/DC)
+
 
 
 
