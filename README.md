@@ -34,7 +34,9 @@ In 2020, the controller used for both stations was the Siemens S7 1200 PLC (CPU 
 # Tech Stack
 We used Siemens NX software to build the digital twin models because, well, we were in the Siemens Mechatronics System Certification Programme😀. Anyway, with the software, we could design and simulate realizing the best from the digital twins
 
-Face recognition and voice assistant programmes were written in Python. We chose Python because for one, our models had to be intelligent, and Python is very popular for Artificial intelligence implementation. Secondly, and full disclosure I believe this is one of the major reasons, we didnt have a lot of experience programming. Python has a very huge community, which is only growing,
+Face recognition and voice assistant programmes were written in Python. We chose Python because for one, our models had to be intelligent, and Python is very popular for Artificial intelligence implementation. Secondly, and full disclosure I believe this is one of the major reasons, we didnt have a lot of experience programming. Python has a very huge community, which is only growing, and growing😊, since the introduction of deep learning.
+
+The models were created in Tensorflow Keras API
 
 
 
