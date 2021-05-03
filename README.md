@@ -17,6 +17,8 @@ Both of these stations are developed by Amatrol to teach and train on process co
 
 The Analytic process control station monitors and regulates the PH of a process fluid. The station runs on PID Controller Module – Single Loop (T5554-C1-A) or PID Controller Module – Dual Loop (T5554-C2-A)
 
-T
+The Thermal process control station, on the other hand, regulates temperature. The controller for this station is PID Controller Module – Dual Loop (T5553-C2-A).
+
+in 
 
 
