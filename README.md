@@ -36,7 +36,7 @@ We used Siemens NX software to build the digital twin models. With the software,
 
 PLC programs were written in the TIA portal(Totally Integrated Automation)
 
-Face recognition and voice assistant programmes were written in Python. We chose Python because for one, our models had to be intelligent, and Python is very popular for Artificial intelligence implementation. Two, and full disclosure I believe this is one of the major reasons, we didnt have a lot of experience programming. Python has a very huge community, which is only growing, and growing😊 since the introduction of deep learning. We joined the community, have and keep learining so much! From basic programming, through machine-learning and deep learning fundamentals to deep learning APIs (Keras and a bit of Pytorch)
+Face recognition and voice assistant programmes were written in Python. We chose Python because for one, our models had to be intelligent, and Python is very popular in Artificial intelligence implementation. Two, and full disclosure I believe this is one of the major reasons, we didnt have a lot of experience programming. Python has a very huge community, which is only growing, and growing😊 since the introduction of deep learning. We joined the community, have and keep learining so much! From basic programming, through machine-learning and deep learning fundamentals to deep learning APIs (Keras and a bit of Pytorch)
 
 The models were created in Tensorflow Keras API
 
