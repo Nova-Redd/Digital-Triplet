@@ -38,5 +38,11 @@ Face recognition and voice assistant programmes were written in Python. We chose
 
 The models were created in Tensorflow Keras API
 
+# Functionality
+1. Real time digital twin model
+2. Realtime face recognition
+3. General conversation with the machine
+4. Specify the setpoints using voice in English
+5. Control different components of the stations using speech 
 
 
