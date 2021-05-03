@@ -27,10 +27,12 @@ In 2018, the team of Isaiah Nassiuma, Emanuel Sunguti, Langat KIpkoech Rogers an
 In 2020, the controller used for both stations was the Siemens S7 1200 PLC (CPU 1214C DC/DC/DC)
 
 # Criteria
-1. Digital Twin model
+1. Digital Twin models for the stations
 2. Real time Face recognition
 3. Intelligent voice assistant
 
+# Tech Stack
+We used Siemens NX software to build the digital twin models because, well, we were in the Siemens Mechatronics System Certification Programme😀. Anyway, with the software, we could design and simulate realizing the best from the digital twins
 
 
 
