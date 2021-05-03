@@ -13,6 +13,8 @@ This repository outlines the approaches we took to achieve this
 ![image](https://user-images.githubusercontent.com/83555928/116885724-0e3e0600-abdd-11eb-81c9-bcb157bec205.png)
 ![image](https://user-images.githubusercontent.com/83555928/116886682-39752500-abde-11eb-9f44-d28c2f63cf82.png)
 
+Both of these stations are developed by Amatrol to teach and train on process control which is a vital part of of major industries, including: power generation; petrochemicals; food processing and bottling; chemical manufacturing; biotechnology; pharmaceuticals; and refineries.
 
+The Analytic process control station monitors and regulates the PH of a process fluid.
 
 
