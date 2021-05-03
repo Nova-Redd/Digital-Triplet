@@ -43,6 +43,6 @@ The models were created in Tensorflow Keras API
 2. Realtime face recognition
 3. General conversation with the machine
 4. Specify the setpoints using voice in English
-5. Control different components of the stations using speech 
+5. Control different components (pumps, motors, chiller) of the stations using speech 
 
 
