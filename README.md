@@ -19,7 +19,10 @@ The Analytic process control station monitors and regulates the PH of a process 
 
 The Thermal process control station, on the other hand, regulates temperature. The controller for this station is PID Controller Module – Dual Loop (T5553-C2-A).
 
-In 2018, the tem of Isaiah Nassiuma, Emanuel Sunguti, Langat KIpkoech Rogers and Timothy KImari propesed a new control method based on the Siemens S7 1200 PLC PID control functionality.
+Here is a link to Amatrol's site if you wish to know more on Process control machnes
+https://amatrol.com/product/process-control-training/
+
+In 2018, the team of Isaiah Nassiuma, Emanuel Sunguti, Langat KIpkoech Rogers and Timothy KImari proposed a new control method based on the Siemens S7 1200 PLC PID control functionality.
 
 in 2020, the controller used for both stations was the Siemens S7 1200 PLC (CPU 1214C DC/DC/DC)
 
