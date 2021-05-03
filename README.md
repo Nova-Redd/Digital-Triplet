@@ -15,6 +15,8 @@ This repository outlines the approaches we took to achieve this
 
 Both of these stations are developed by Amatrol to teach and train on process control which is a vital part of of major industries, including: power generation; petrochemicals; food processing and bottling; chemical manufacturing; biotechnology; pharmaceuticals; and refineries.
 
-The Analytic process control station monitors and regulates the PH of a process fluid. The station runs on https://www.amatrol.com/coursepage/t5554/pid-controller-module-single-loop-t5554-c1-a/
+The Analytic process control station monitors and regulates the PH of a process fluid. The station runs on PID Controller Module – Single Loop (T5554-C1-A) or PID Controller Module – Dual Loop (T5554-C2-A)
+
+T
 
 
