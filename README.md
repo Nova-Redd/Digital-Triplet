@@ -40,6 +40,12 @@ Face recognition and voice assistant programmes were written in Python. We chose
 
 The models were created in Tensorflow Keras API
 
+# Tech stack
+1. Siemens NX
+2. Siemens TIA portal
+3. Python 
+4. Tensorflow Keras API
+
 # Functionality
 1. Real time digital twin model
 2. Realtime face recognition
@@ -47,9 +53,5 @@ The models were created in Tensorflow Keras API
 4. Specify the setpoints using voice in English
 5. Control different components (pumps, motors, chiller) of the stations using speech 
 
-# Tech stack
-1. Siemens NX
-2. Siemens TIA portal
-3. Python 
-4. Tensorflow Keras API
+
 
