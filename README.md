@@ -26,6 +26,12 @@ In 2018, the team of Isaiah Nassiuma, Emanuel Sunguti, Langat KIpkoech Rogers an
 
 In 2020, the controller used for both stations was the Siemens S7 1200 PLC (CPU 1214C DC/DC/DC)
 
+# Criteria
+1. Digital Twin model
+2. Real time Face recognition
+3. Intelligent voice assistant
+
+
 
 
 
