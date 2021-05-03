@@ -10,5 +10,6 @@ At Dedan Kimathi University of Technology (DeKUT) SIEMENS Mechatronics Systems t
 This repository outlines the approaches we took to achieve this
 
 # Analytic and Thermal Process Control stations
+![image](https://user-images.githubusercontent.com/83555928/116885724-0e3e0600-abdd-11eb-81c9-bcb157bec205.png)
 
 
