@@ -59,7 +59,9 @@ The Snap7 library was used to interface Python programs with the S7 1200 PLC
 4. Specify the setpoints using voice in English
 5. Control different components (pumps, motors, chiller) of the stations using speech 
 
-# Breakdown of Work done
+# Breakdown of approaches
+The following section is a breakdown of the directories at the top of this repository
+## Face-recognition
 
 
 
