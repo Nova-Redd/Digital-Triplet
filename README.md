@@ -64,7 +64,7 @@ The following section is a breakdown of the directories at the top of this repos
 ## Face-recognition
 We did face recognition in two ways;
 1. Using Python's face-recognition library 
-2. Through transfer learning/n
+2. Through transfer learning  
 I will describe our experiences with both outlining the challenges faced, ways we went around them and possible solutions for those that we didn't
 ### Using Python's face-recognition library
 
