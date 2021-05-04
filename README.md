@@ -62,6 +62,10 @@ The Snap7 library was used to interface Python programs with the S7 1200 PLC
 # Breakdown of approaches taken
 The following section is a breakdown of the directories at the top of this repository
 ## Face-recognition
-
+We did face recognition in two ways;
+1. Using Python's face-recognition library 
+2. Through transfer learning
+I will describe our experiences with both outlining the challenges faced, ways we went around them and possible solutions for those that we didn't
+### Using Python's face-recognition library
 
 
