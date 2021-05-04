@@ -75,6 +75,8 @@ As the number of authorized users increases, so does the number of images to be 
 #### Solution
 Use a face cascade classifier from open-cv to extract faces from images of known users. Use these extracted faces as reference images since they are smaller in size than selfies and full size images. A smaller image means shorter processing times 
 
+### Through transfer learning
+This is possibly the most powerful way to do face-recognition and other image classification tasks. It involves using pre-trained deep learning models and 'transfering' the knowledge learned on those tasks to similar tasks
 
 
 
