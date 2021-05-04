@@ -70,4 +70,16 @@ I will describe our experiences with both outlining the challenges faced, ways w
 ### Using Python's face-recognition library
 This was the easiest and most accurate. And why not, its basically recognition through comparison. Locate a face from the camera feed, compare it with saved images, and boom! Match found! or no boom😶if unauthorized
 #### Challenges
+Every authorized user has a folder with their image. When the program runs, it processes all the images in all the folders, opens the camera and compares the face from the feed with the known faces trying to find a match.  
+As the number of authorized users increases, so does the number of images to be processed. This means more processing time and it becomes increasingly difficult for the program to work in real time.
+
+
+
+
+
+
+
+
+
+
 
