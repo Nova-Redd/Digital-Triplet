@@ -40,11 +40,17 @@ Face recognition and voice assistant programmes were written in Python. We chose
 
 The models were created in Tensorflow Keras API
 
+Communication between client machine and server computer was done through OPC UA protocol(Open Platform Communications Unified Architecture)
+
+The Snap7 library was used to interface Python programs with the S7 1200 PLC
+
 # Tech stack
 1. Siemens NX
 2. Siemens TIA portal
 3. Python 
 4. Tensorflow Keras API
+5. OPC UA protocol
+6. Snap7 library
 
 # Functionality
 1. Real time digital twin model
