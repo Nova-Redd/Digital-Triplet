@@ -73,11 +73,12 @@ This was the easiest and most accurate. And why not, its basically recognition t
 Every authorized user has a folder with their image. When the program runs, it processes all the images in all the folders, opens the camera and compares the face from the feed with the known faces trying to find a match.  
 As the number of authorized users increases, so does the number of images to be processed. This means more processing time and it becomes increasingly difficult for the program to work in real time.
 #### Solution
-Use a face cascade classifier from open-cv to extract faces from images of known users. Use these extracted faces as reference images since they are smaller in size than selfies and full size images. A smaller image means shorter processing times 
+Use a face cascade classifier from open-cv to extract faces from images of known users. Use these extracted faces as reference images since they are smaller in size than selfies and full size images. A smaller image means shorter processing times  
+If the program still has challenges working in real time, switch it up, elevate, and use deep learning models like a pro!😎
 
 ### Through transfer learning
-This is possibly the most powerful way to do face-recognition and other image classification tasks. It involves using pre-trained deep learning models and 'transfering' the knowledge learned on those tasks to similar tasks. Deep learning models can work in realtime even woth increased number of authorized users. However, their accuracy is dependent on how well the models learns to generalize during training.
-We transfer learned Google's MobileNet and ResNet50 a variant of ResNet model
+This is possibly the most powerful way to do face-recognition and other image classification tasks. It involves using pre-trained deep learning models and 'transfering' the knowledge learned on those tasks to similar tasks. Deep learning models can work in realtime even with increased number of authorized users. However, their accuracy is dependent on how well the models learns to generalize during training.
+We transfer-learned Google's MobileNet and ResNet50 a variant of ResNet model
 #### MobileNet
 
 
