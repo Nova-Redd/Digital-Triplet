@@ -80,7 +80,7 @@ If the program still has challenges working in real time, switch it up, elevate,
 This is possibly the most powerful way to do face-recognition and other image classification tasks. It involves using pre-trained deep learning models and 'transfering' the knowledge learned on those tasks to similar tasks. Deep learning models can work in realtime even with increased number of authorized users. However, their accuracy is dependent on how well the models learns to generalize during training.  
 We transfer-learned Google's MobileNet and ResNet50 a variant of ResNet model
 #### MobileNet
-
+MobileNets are a class of light weight deep convolutional neural networks for mobile and embedded vision applications. They can run on mobile devices due to their small sixe. the size of the largest MobileNet currently is about 17 MB. Comparatively, VGG16, a model used in computer vision tasks 533 MB.
 
 
 
