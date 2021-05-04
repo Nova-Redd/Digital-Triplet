@@ -87,7 +87,7 @@ MobileNets are trained on the ImageNet dataset. The MobileNet in the Keras funct
 The code at the top of this repo has comments to help you follow along. If you would like a detailed tutorial on how to work with MobileNet in Keras, please check out Deeplizard's Keras series. They have both video and text based resources. Tutorials 17 through 19 are on MobileNets. We learnt a lot from them.(Thankyou so much! Mandy and Chris😀)
 https://deeplizard.com/learn/video/OO4HD-1wRN8
 
-
+##### Challenges
 
 
 
