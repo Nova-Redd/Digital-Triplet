@@ -77,7 +77,8 @@ Use a face cascade classifier from open-cv to extract faces from images of known
 
 ### Through transfer learning
 This is possibly the most powerful way to do face-recognition and other image classification tasks. It involves using pre-trained deep learning models and 'transfering' the knowledge learned on those tasks to similar tasks. Deep learning models can work in realtime even woth increased number of authorized users. However, their accuracy is dependent on how well the models learns to generalize during training.
-
+We transfer learned Google's MobileNet and ResNet50 a variant of ResNet model
+#### MobileNet
 
 
 
