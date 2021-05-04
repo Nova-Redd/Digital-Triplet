@@ -68,5 +68,6 @@ We did face recognition in two ways;
   
 I will describe our experiences with both outlining the challenges faced, ways we went around them and possible solutions for those that we didn't
 ### Using Python's face-recognition library
-
+This was the easiest and most accurate. And why not, its basically recognition through comparison. Locate a face from the camera feed, compare it with saved images, and boom! Match found! or no boom😶if unauthorized
+#### Challenges
 
