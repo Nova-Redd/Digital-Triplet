@@ -89,8 +89,10 @@ https://deeplizard.com/learn/video/OO4HD-1wRN8
 
 ##### Challenges
 These are more of useful insights but can easily challenge how the model learns if nor observed.
-1. Balanced number of images- sounds pretty obvious right? Have the same number of images for each member(whether in the training set or validatuon set). First time retraunung the model, I didnt think  there would be much difference with using 150 images for one user and 100 for another. But yes, there was. The model would give better predictions for the first user and perform comparatively worse for the other.
-2. Variations and number of images- Augment your images. Flip horizontally, rotate, zoom,crop;these variations in the training and validation set helps a model to generalize better. There is a program on data augmentation in Keras at the top of this repo. 
+1. Balanced number of images- sounds pretty obvious right? Have the same number of images for each member(whether in the training set or validatuon set). First time retraining the model, I didnt think  there would be much difference with using 150 images(which are certainly not enough) for one user and 100 for another. But yes, there was. The model would give better predictions for the first user and perform comparatively worse for the other.
+
+2. Variations and number of images- Augment your images. Flip horizontally, rotate, zoom,crop;these variations in the training and validation set helps a model to generalize better. There is a program on data augmentation in Keras at the top of this repo. If you dint have access to more images, you can specify the number of images to generate from each image. 
+
 3. 
 
 
