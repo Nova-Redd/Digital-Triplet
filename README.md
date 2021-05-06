@@ -30,15 +30,16 @@ In 2020, the controller used for both stations was the Siemens S7 1200 PLC (CPU 
 1. Digital Twin models for the stations
 2. Real time Face recognition
 3. Intelligent voice assistant
+4. Real time mask detection to ensure the operator always wears his mask correctly
 
 # Tech Stack Summary
 We used Siemens NX software to build the digital twin models. With the software, we could design and simulate realizing the best from the digital twins
 
 PLC programs were written in the TIA portal(Totally Integrated Automation)
 
-Face recognition and voice assistant programmes were written in Python. We chose Python due to its popularity in Artificial intelligence implementation. our face and voice recognition models had to be intelligent. Secondly, and full disclosure I believe this is one of the major reasons, we didnt have a lot of experience programming. Python has a very huge community, which is only growing, and growing😊 since the introduction of deep learning. We joined the community and keep learining so much! From basic programming, through machine-learning and deep learning fundamentals to deep learning APIs (Keras and a bit of Pytorch)
+Face recognition, voice assistant and mask detection programmes were written in Python. We chose Python due to its popularity in Artificial intelligence implementation. our face and voice recognition models had to be intelligent. Secondly, and full disclosure I believe this is one of the major reasons, we didnt have a lot of experience programming. Python has a very huge community, which is only growing, and growing😊 since the introduction of deep learning. We joined the community and keep learining so much! From basic programming, through machine-learning and deep learning fundamentals to deep learning APIs (Keras and a bit of Pytorch)
 
-The models were created in Tensorflow Keras API
+The mask detection model was created in Tensorflow Keras API
 
 Communication between client machine and server computer was done through OPC UA protocol(Open Platform Communications Unified Architecture)
 
@@ -58,6 +59,7 @@ The Snap7 library was used to interface Python programs with the S7 1200 PLC
 3. General conversation with the machine
 4. Specify the setpoints using voice in English
 5. Control different components (pumps, motors, chiller) of the stations using speech 
+6. Real time mask detection for the operator
 
 # Breakdown of approaches taken
 The following section is a breakdown of the directories at the top of this repository
@@ -77,7 +79,7 @@ Use a face cascade classifier from open-cv to extract faces from images of known
 If the program still has challenges working in real time, switch it up, elevate, and use deep learning models like a pro!😎
 
 ### Through transfer learning
-This is possibly the most powerful way to do face-recognition and other image classification tasks. It involves using pre-trained deep learning models and 'transfering' the knowledge learned on those tasks to similar tasks. Deep learning models can work in realtime even with increased number of authorized users. However, their accuracy is dependent on how well the models learns to generalize during training.  
+This is possibly the most powerful way to do face-recognition and other image classification tasks eg mask detection. It involves using pre-trained deep learning models and 'transfering' the knowledge learned on those tasks to similar tasks. Deep learning models can work in realtime even with increased number of authorized users. However, their accuracy is dependent on how well the models learns to generalize during training.  
 We transfer-learned Google's MobileNet and ResNet50 a variant of ResNet model
 #### MobileNet
 MobileNets are a class of light weight deep convolutional neural networks for mobile and embedded vision applications. They can run on mobile devices due to their small sixe. the size of the largest MobileNet currently is about 17 MB. Comparatively, VGG16, a model used in computer vision tasks is 533 MB.  
@@ -97,7 +99,11 @@ These are more of useful insights but can easily challenge how the model learns 
 
 4. GPU training- As you may have realized, training for the optimum weights is through trial and error. You end up training your model a number of times before it gives accurate predictions. This training process takes very long on the CPU. If you dont have access to a machine with a NVIDIA GPU, run your code on Google Colab and utilize the GPUs at Google. 
 
+## Mask detection
+We accomplished mask detection through transfer learning using Google's MobileNet.
 
+#### Challenges
+The challenges of mask detection through transfer learning are similar to those of face recognition. For accurate mask detection, we need to use a good quality camera with high resolution.
 
 
 
