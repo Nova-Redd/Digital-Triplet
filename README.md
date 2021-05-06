@@ -95,7 +95,7 @@ These are more of useful insights but can easily challenge how the model learns 
 
 2. Variations and number of images- Augment your images. Flip horizontally, rotate, zoom,crop; these variations in the training and validation set help a model to generalize better. There is a program on data augmentation in Keras at the top of this repo. If you don't have access to more images, you can specify the number of images to generate from each image. 
 
-3. Number of hidden layers to retrain- As mentioned earlier, we freeze the top layers, retrain classigication and some hidden layers. Experiment with this number(hidden layers). Find the optimum number for your dataset.
+3. Number of hidden layers to retrain- As mentioned earlier, we freeze the top layers, retrain classification and some hidden layers. Experiment with this number(hidden layers). Find the optimum number for your dataset.
 
 4. GPU training- As you may have realized, training for the optimum weights is through trial and error. You end up training your model a number of times before it gives accurate predictions. This training process takes very long on the CPU. If you dont have access to a machine with a NVIDIA GPU, run your code on Google Colab and utilize the GPUs at Google. 
 
