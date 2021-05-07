@@ -113,7 +113,7 @@ As we know that Deep Convolutional neural networks are really great at identifyi
 This problem was further rectifed by by taking a shallower model and a deep model that was constructed with the layers from the shallow model and and adding identity layers to it and accordingly the deeper model shouldn't have produced any higher training error than its counterpart as the added layers were just the identity layers.
 ![image](https://user-images.githubusercontent.com/74649440/117497784-97f52700-af81-11eb-94c6-06714038055f.png)
 
-In Figure 1 we can see on the left and the right that the deeper model is always producing more error, where in fact it shouldn't have done that.The authors addressed this problem by introducing deep residual learning framework so for this they introduce shortcut connections that simply perform identity mappings
+In the Figure above we can see on the left and the right that the deeper model is always producing more error, where in fact it shouldn't have done that.The authors addressed this problem by introducing deep residual learning framework so for this they introduce shortcut connections that simply perform identity mappings
 
 ## Mask detection
 We accomplished mask detection through transfer learning using Google's MobileNet.
