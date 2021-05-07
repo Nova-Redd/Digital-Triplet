@@ -52,6 +52,10 @@ The Snap7 library was used to interface Python programs with the S7 1200 PLC
 4. Tensorflow Keras API
 5. OPC UA protocol
 6. Snap7 library
+7. Python text to speech
+8. Natural Language Processing
+9. Speech Recognition
+10. Numpy
 
 # Functionality
 1. Real time digital twin model
@@ -99,12 +103,37 @@ These are more of useful insights but can easily challenge how the model learns 
 
 4. GPU training- As you may have realized, training for the optimum weights is through trial and error. You end up training your model a number of times before it gives accurate predictions. This training process takes very long on the CPU. If you dont have access to a machine with a NVIDIA GPU, run your code on Google Colab and utilize the GPUs at Google. 
 
+#### Resnet50
+ResNet50 is a variant of ResNet model which has 48 Convolution layers along with 1 MaxPool and 1 Average Pool layer. It has 3.8 x 10^9 Floating points operations. It is a widely used ResNet model. Because of the framework that ResNets presented it was made possible to train ultra deep neural networks and by that i mean that i network can contain hundreds or thousands of layers and still achieve great performance.The ResNets were initially applied to the image recognition task but the framework can also be used for non computer vision tasks also to achieve better accuracy. 
+
+##### Challenges
+As we know that Deep Convolutional neural networks are really great at identifying low, mid and high level features from the images and stacking more layers generally gives us better accuracy so a question arrises that is getting better model performance as easy as stacking more layers? With this questions arises the problem of vanishing/exploding gradients those problems were largely handled by many ways and enabled networks with tens of layers to converge but when deep neural networks start to converge we see another problem of the accuracy getting saturated and then degrading rapidly and this was not caused by overfitting as one may guess and adding more layers to a suitable deep model just increased the training error.
+
 ## Mask detection
 We accomplished mask detection through transfer learning using Google's MobileNet.
 
 #### Challenges
 The challenges of mask detection through transfer learning are similar to those of face recognition. For accurate mask detection, we need to use a good quality camera with high resolution.
 
+## Intelligent voice assistant
+The intelligent voice assistant incorporated two types of chatbots;
+  1. Speech Recognition
+  2. Keyword chatbot
+  3. AI chatbot
+ 
+### Speech Recognition
+The voice assistant used the python SpeechRecognition library to enable the machine to understand voice commands from the operator. It also uses the try and except functions to avoid unnecessary errors eg; UknownValueError which is caused by the program not understanding your statement and RequestError which happens when the internet is disconnected. Instead of the errors interrupting the program, the voice assistant will inform the operator ie;
+  1. UknownValueError - I cant understand your statement
+  2. RequestError - Your internet is disconnected
 
+#### Challenge
+The SpeechRecognition library is a bit slow and does not facilitate immediate responses. It takes a few seconds to understand a spoken statement.
 
+#### Solution
+The best way to use the SpeechRecognition library is by using your laptop's inbuilt microphone: if it is functional, otherwise use a good external device with a good microphone eg a usb microphone, usb camera with an inbuilt microphone, headphones or earphones equipped with a good microphone.
 
+### Keyword chatbot
+The keyword chatbot used specific keywords to directly write data in TIA portal by using the Snap-7 library in python. This was mainly accomplished by using **if** statements. This enforces the security feature of the machine only if the authorized users are the only ones who have access to the keyworded commands. The snap-7 library writes and reads the required data in the TIA portal program by using the correct PLC addresses in the TIA portal program.
+
+### AI chatbot
+ The AI chatbot is mainly used to facilitate conversations about the machine processes with the operator. This was accomplished by first creating a dictionary file with all the possible questions or statements that the operator might use to ask about machine processes and the required answers. With this feature the machine will be able to train a new operator on all the processes that the machine can do. We incorporated natural language processing in creating the AI chatbot model by using nltk(natural language tool kit) and Tensorflow Keras API. The Natural Language Toolkit (NLTK) is a platform used for building Python programs that work with human language data for applying in statistical natural language processing (NLP).It contains text processing libraries for tokenization, parsing, classification, stemming, tagging and semantic reasoning. 
