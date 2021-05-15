@@ -151,8 +151,24 @@ Recall from the tech stack summary, we said we use the snap7 library to interfac
 
 Well, its not magic, and it certainly doesn't have 'special' abilities. The logic behind how it works lies in the memory of the PLC.  
 ## The memory of the PLC
-If you have worked with PLCs, you're probably familiar with the tag table. if you have not, have no worries. Below is a snap of the tag table for the analytic station.  
-![image](https://user-images.githubusercontent.com/83555928/118378804-eeb6be00-b58a-11eb-8327-bd261914cc81.png)
+If you have worked with PLCs, you're probably familiar with the tag table. if you have not, have no worries. We will go through what it is, and how it relates to the memory of a PLC. Below is a snap of the tag table for the analytic station.  
+
+![image](https://user-images.githubusercontent.com/83555928/118378804-eeb6be00-b58a-11eb-8327-bd261914cc81.png)  
+
+All variables in a PLC program can be viewed from the tag table. Every variable has an associated data type and an address.   
+
+Take the agitator motor for instance. The agitator motor is used for stirring acid,water and base in the mixing tank. It is connected to the output module of the PLC. The motor is either on or off. Therefore the associated data type is boolean(Bool). The address is %Q0.5, the 'Q' indicating an output.
+
+If you look at the scaled PH input, the data type is real(floating point) and the address is %MD120. The 'M' stands for memory. The 'D' shows the position in memory where the data lies. 'D' indicates a double word(32 bit). In this PLC's memory, the scaled PH input is stored in the 32 bit position.  
+
+All variables, excluding timers and counters, can be stored as inputs, outputs or memory within the memory of the PLC.  
+
+When we work with PLCs, we access these memory locations, and either write to, or read from them.  
+
+To talk python to a PLC using the snap7 library, we need a python program that can find these memory locations, and then read or write to them using methods from util and types classes of the snap7 library.  
+Luckily for us, AndyKibz has this python script on his github. This script(plc_utils.py) is at the top of this repository. The script has two functions; read_data and write_data. read_data takes two parametes; plc and the key (address tag). The function finds the location in memory of the tag and reads from it.  
+
+write_data takes three parameters; the plc, the key to write to, and the value to write to that tag.
 
 
  
