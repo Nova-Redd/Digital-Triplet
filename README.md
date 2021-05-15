@@ -146,5 +146,10 @@ The keyword chatbot used specific keywords to directly write data in TIA portal 
  
 # Communication with the PLC
 So, you now have a voice assistant. You can communicate in natural language; you can have a general conversation with the assistant, you can specify the setpoint, you can tell the assistant to turn the chiller on. How exactly does this happen? How does the assistant(written in python) communicate with the PLC, a device running on a completely different language?   
-Recall from the tech stack summary, we used the snap7 library to interface python programs with the PLC
+
+Recall from the tech stack summary, we said we use the snap7 library to interface python programs with the PLC. How does snap7 do this? Is it magic? Oh, does snap7 have other special abilities?  
+
+Well, its not magic, and it certainly doesn't have 'special' abilities. The logic behind how it works lies in the memory of the PLC.  
+## The memory of the PLC
+
  
