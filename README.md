@@ -143,3 +143,8 @@ The keyword chatbot used specific keywords to directly write data in TIA portal 
 
 ### AI chatbot
  The AI chatbot is mainly used to facilitate conversations about the machine processes with the operator. This was accomplished by first creating a dictionary file with all the possible questions or statements that the operator might use to ask about machine processes and the required answers. With this feature the machine will be able to train a new operator on all the processes that the machine can do. We incorporated natural language processing in creating the AI chatbot model by using nltk(natural language tool kit) and Tensorflow Keras API. The Natural Language Toolkit (NLTK) is a platform used for building Python programs that work with human language data for applying in statistical natural language processing (NLP).It contains text processing libraries for tokenization, parsing, classification, stemming, tagging and semantic reasoning. 
+ 
+# Communication with the PLC
+So, you now have a voice assistant. You can communicate in natural language; you can have a general conversation with the assistant, you can specify the setpoint, you can tell the assistant to turn the chiller on. How exactly does this happen? How does the assistant(written in python) communicate with the PLC, a device running on a completely different language?   
+Recall from the tech stack summary, we used the snap7 library to interface python programs with the PLC
+ 
