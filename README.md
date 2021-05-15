@@ -151,5 +151,8 @@ Recall from the tech stack summary, we said we use the snap7 library to interfac
 
 Well, its not magic, and it certainly doesn't have 'special' abilities. The logic behind how it works lies in the memory of the PLC.  
 ## The memory of the PLC
+If you have worked with PLCs, you're probably familiar with the tag table. if you have not, have no worries. Below is a snap of the tag table for the analytic station.  
+![image](https://user-images.githubusercontent.com/83555928/118378804-eeb6be00-b58a-11eb-8327-bd261914cc81.png)
+
 
  
