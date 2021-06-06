@@ -1,4 +1,4 @@
-all programs and models needed to run the assistant, excluding the PLC program are stored in this folder
+all programs and models needed to run the assistant, excluding the PLC program and face recognition model are stored in this folder
 Steps 
 
 1. connect PC to PLC through ethernet
