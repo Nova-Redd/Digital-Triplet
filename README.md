@@ -175,11 +175,17 @@ write_data takes three parameters; the plc, the key to write to, and the value t
 We also added a virtual simulation feature to the project. This was achieved by mapping the signals from the input and output devices to the Simulation NX CAD design assembly using the PLC's inbuilt OPCUA server. The names of the mapped signals are defined in the PLC program, collected in the OPCUA python server code and then mapped in the MCD (Mechatronics Concept Designer) signals on NX CAD design.
 
 ### Thermal Process Control Simulation
+
 ![image](https://user-images.githubusercontent.com/74649440/122034713-7554fa00-cdda-11eb-83cc-718b6a36589b.png)
+
 The signals are collected from the PLC program and are fed into the server code then mapped into the NX design to show the status of the components and processes. To see the complete server code please check the server code in the Thermal Process Control Python Codes folder and open signal_server file.
+
 ![image](https://user-images.githubusercontent.com/74649440/122029899-f5c52c00-cdd5-11eb-8d92-543c22837aa1.png)
+
 In the Thermal Process Control project, we used Colour Coding method since there were no moving parts eg motors or rails. Specific colours were used to indicate whether some components were on and the type of process that is taking place ie water cooling or water heating. Consider the example below:
+
 ![image](https://user-images.githubusercontent.com/74649440/122030812-c2cf6800-cdd6-11eb-9ddb-82cece7fb29f.png)
+
 This image indicates the Cooling process since:
   1. The Process Tank is blue in colour
   2. The Chiller is blue in colour which indicates it is on
