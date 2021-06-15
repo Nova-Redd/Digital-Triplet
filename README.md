@@ -190,9 +190,18 @@ This image indicates the Cooling process since:
   1. The Process Tank is blue in colour
   2. The Chiller is blue in colour which indicates it is on
   3. The Chiller exchanger is green in colour which indicates it is on
-  4. The hot water tank, hot water exchanger and hotwater pump are yellow in colour which indicates the heater is off and the 3 way valve that controls the hot water flow has      been closed completely to prevent any rise in temperature.
+  4. The hot water tank, hot water exchanger and hotwater pump are orange in colour which indicates the heater is off and the 3 way valve that controls the hot water flow has      been closed completely to prevent any rise in temperature.
   5. The Process Pump is green in colour which indicates that it is on.
 
+This image below indicates the Heating Process
+
+![image](https://user-images.githubusercontent.com/74649440/122114465-fa1c3400-ce2b-11eb-8326-143c149697ca.png)
+
+  1. The Process Tank is red in colour to indicate rise in temperature
+  2. The Chiller and Chiller Exchanger are orange in colour to indicate they are off.
+  3. The Hot water tank is blue in colour to indicate that the heater is on.
+  4. The hot water pump and hot water exchanger are green in colour to indicate that they are on and hot water is being pumped through the three way valve.
+  5. The Process Pump is green in colour which indicates that it is on.
 
 
 
