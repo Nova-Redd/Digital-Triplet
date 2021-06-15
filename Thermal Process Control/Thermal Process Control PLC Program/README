@@ -1,2 +1,3 @@
 This folder contains the TIA Portal project that contains the PLC program that was used to automate the machine and also create a virtual simulation of the processes on the
-CAD Simulation Assembly.
+CAD Simulation Assembly. The program was written in TIA Potal version 16 (V16). We converted the programs to pdf form so that it is visible to those who dont have the TIA 
+Portal program.
